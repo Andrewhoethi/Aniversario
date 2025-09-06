@@ -119,7 +119,7 @@ function init() {
     elements.readMoreBtn.addEventListener('click', toggleAdditionalContent);
 
     // Contador de tempo
-    const ultimaConversa = new Date('2025-08-09T16:07:00');
+    const ultimaConversa = new Date('2025-09-06T17:44:00');
     setInterval(() => {
         const diff = new Date() - ultimaConversa;
 
